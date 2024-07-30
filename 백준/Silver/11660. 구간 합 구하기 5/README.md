@@ -61,3 +61,17 @@
 
  <p>총 M줄에 걸쳐 (x1, y1)부터 (x2, y2)까지 합을 구해 출력한다.</p>
 
+ ### 🚀 Trouble Shooting
+ - 국어가 안되는 것 같다...
+   - 처음 테케가 왜 27이 나오는 지 이해하는 데만 30분 걸림...ㅋㅋ
+   <img src = "https://github.com/user-attachments/assets/3c88435c-53b0-4f6d-b6a2-e4b3f89b74be" height = 200 width = 500>  
+  - 문제를 잘 읽자..ㅎ
+- 여러모로 어려운 문제..
+  - tip) 문제와 인덱스를 헷갈리지 않으려면 인덱스를 맞춰주기 위해 prefix를 설정하고, 0으로 다 초기화시켜주는 방법도 있다.
+    - 구간 합 문제에서 가능한 듯..!(0은 더해도 0이니)
+    <img src = "https://github.com/user-attachments/assets/788d1313-140e-495e-b381-f4aedf2e425f" width = 1000 height = 500>
+
+
+  
+
+
