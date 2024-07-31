@@ -28,3 +28,8 @@
 
  <p>첫째 줄에 갑옷을 만들 수 있는 개수를 출력한다.</p>
 
+### 🚀 Trouble Shooting
+- `sort()` vs `sorted()`
+  - `sort()`: 원본 리스트를 직접 정렬(return = None)
+  - `sorted()`: 새로운 리스트를 반환(원본 iterable은 변경되지 x)
+
