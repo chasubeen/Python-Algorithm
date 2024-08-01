@@ -32,3 +32,11 @@
 
  <p>첫째 줄에 남게 되는 카드의 번호를 출력한다.</p>
 
+ ### 🚀 Trouble Shooting
+ - 큐의 선입선출 방식만 이해하면 쉽게 풀 수 있음!
+   - 앞에서 빼서 뒤로 넣어주기
+ - 파이썬에서 queue는 deque 모듈을 불러서 처리하는 것 같다.
+   - dequeL double-ended queue의 약자
+ - 그 외에도 다양한 방식이 있는 것 같다.
+   - [Reference](https://www.daleseo.com/python-queue/)
+
