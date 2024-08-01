@@ -28,3 +28,9 @@
 
  <p>총 N개의 수 NGE(1), NGE(2), ..., NGE(N)을 공백으로 구분해 출력한다.</p>
 
+ ### 🚀 Truoble Shooting
+ <img src = "https://github.com/user-attachments/assets/0e89b679-9ba6-461a-a639-27b20620fb80" height = 400 width = 800>
+
+- stack에는 인덱스 값을 저장해 두고, 그를 통해 결과 배열을 완성시킨다는 점이 특이했다.
+  - 탐색 시 stack을 어떤 용도로 활용하는 게 좋을지 생각하면서 문제 풀이하기!!
+
