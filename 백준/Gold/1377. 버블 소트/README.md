@@ -46,3 +46,8 @@ for (int i=1; i<=N+1; i++) {
 
  <p>정답을 출력한다.</p>
 
+### **🚀 Trouble Shooting**
+- 단순한 버블 정렬을 사용하면 시간 초과 문제가 발생함
+     <img src = "https://github.com/user-attachments/assets/cfe2325e-4c29-490f-9c9b-0c987ebd2db9" height = 300 width = 800>
+- 반복 for문이 몇 번 수행되었는지를 구하면 된다.
+  <img src = "https://github.com/user-attachments/assets/f0b381f7-2971-4840-9646-29afe47064b9" height = 400 width = 800>
