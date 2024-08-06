@@ -32,3 +32,7 @@
 
  <p>첫째 줄에 각 사람이 돈을 인출하는데 필요한 시간의 합의 최솟값을 출력한다.</p>
 
+### **🚀 Trouble Shooting**
+- 합 배열을 굳이 안만들고, 수식으로 해결 가능하다.
+  - 정렬이 되고 나면, 제일 앞에 있는 수가 제일 많이 더해짐
+  - $\text{total time} = N \times P_1 + (N-1) \times P_2 + \cdots + 1 \times P_N = \sum_{k=1}^N (N+1-k)P_k$
