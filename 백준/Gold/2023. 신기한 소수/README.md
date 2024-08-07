@@ -30,3 +30,6 @@
 
  <p>N자리 수 중에서 신기한 소수를 오름차순으로 정렬해서 한 줄에 하나씩 출력한다.</p>
 
+### **🚀 Trouble Shooting**
+<img src = "https://github.com/user-attachments/assets/b15bf456-fa38-4cd4-a88e-6d59223b9a05" height = 250 width = 500>
+
