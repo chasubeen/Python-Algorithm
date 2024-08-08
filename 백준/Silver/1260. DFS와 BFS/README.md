@@ -26,3 +26,6 @@
 
  <p>첫째 줄에 DFS를 수행한 결과를, 그 다음 줄에는 BFS를 수행한 결과를 출력한다. V부터 방문된 점을 순서대로 출력하면 된다.</p>
 
+### **🚀 Trouble Shooting**
+- 역시 자료구조는 그림 좀 그려줘야지 ㅎㅎ
+  <img src = "https://github.com/user-attachments/assets/3d0ed984-759c-47cc-ba78-513986f1553b" width = 800 height = 400>
