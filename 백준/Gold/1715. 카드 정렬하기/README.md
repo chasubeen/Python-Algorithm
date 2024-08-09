@@ -30,3 +30,10 @@
 
  <p>첫째 줄에 최소 비교 횟수를 출력한다.</p>
 
+### **🚀 Trouble Shooting**
+- 빠른 입출력이 런타임에..큰 영향을 미치는군요...허허
+  ```
+  import sys
+  input = sys.stdin.readline
+  ```
+  - 이거 넣으니 잘 돌아가서 매우 허무함...😂
