@@ -1,46 +1,49 @@
 import sys
 input = sys.stdin.readline
-
 from queue import PriorityQueue
-n = int(input())
-plus_pq = PriorityQueue()  # 양수 우선순위 큐
-minus_pq = PriorityQueue()  # 음수 우선순위 큐 
-one = 0
-zero = 0
 
-# 4개의 그룹으로 분리 저장
-# 양수는 내림차순 정렬을 위해 -1을 곱해 저장
-for i in range(n):
+# 입력
+N = int(input())  # 카드 묶음 개수
+plusPq = PriorityQueue()  # 양수 우선순위 큐
+minusPq = PriorityQueue()  # 음수 우선순위 큐
+one = 0  # 1의 개수 카운트
+zero = 0  # 0의 개수 카운트
+
+# 처리
+for _ in range(N):
     data = int(input())
     if data > 1:
-        plus_pq.put(data*-1)
-    elif data==1:
-        one += 1 
-    elif data==0:
-        zero += 1 
+        # 양수 내림차순 정렬을 위해 -1을 곱하여 저장
+        plusPq.put(-data) 
+    elif data == 1:
+        one += 1
+    elif data == 0:
+        zero += 1
     else:
-        minus_pq.put(data)
+        minusPq.put(data)
 
 result = 0
 
-# 양수 우선순위 큐
-while plus_pq.qsize() > 1:
-    first = plus_pq.get() * -1 
-    second = plus_pq.get() * -1  # 두 개의 수를 뽑아서
-    result += first * second   # 곱하고 결과에 더함 
+# 양수 처리
+while plusPq.qsize() > 1:
+    first = -plusPq.get()  # 가장 큰 수
+    second = -plusPq.get()  # 두 번째로 큰 수
+    result += first * second
+if plusPq.qsize() > 0:
+    # 남은 수는 그냥 더하기
+    result += -plusPq.get()
 
-if plus_pq.qsize() > 0:  # 수가 남아있다면
-    result += plus_pq.get() * -1  # 더해주기 
+# 음수 처리
+while minusPq.qsize() > 1:
+    first = minusPq.get()  # 가장 작은 수
+    second = minusPq.get()  # 두 번째로 작은 수
+    result += first * second
+if minusPq.qsize() > 0:
+    # 0이 없으면 음수를 그냥 더함
+    if zero == 0:
+        result += minusPq.get()
 
-# 음수 우선순위 큐
-while minus_pq.qsize() > 1:
-    first = minus_pq.get()  
-    second = minus_pq.get()  # 두 개의 수를 뽑아서
-    result += first * second   # 곱하고 결과에 더함 
-    
-if minus_pq.qsize() > 0:  # 수가 남아있고
-    if zero == 0:  # 데이터 0이 하나도 없다면 
-        result += minus_pq.get() 
+result += one  # 1이 남아있는 경우 처리
 
-result += one  # 1 처리 
+# 출력
 print(result)
