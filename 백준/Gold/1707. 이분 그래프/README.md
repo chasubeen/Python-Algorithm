@@ -28,3 +28,8 @@
 
  <p>K개의 줄에 걸쳐 입력으로 주어진 그래프가 이분 그래프이면 YES, 아니면 NO를 순서대로 출력한다.</p>
 
+### **🚀 Trouble Shooting**
+- 꽤나 헷갈린다..호호..
+  <img src = "https://github.com/user-attachments/assets/6e3f4d2d-f367-42d6-ac07-81904dcfbe43" height = 150 width = 600>
+
+- Python3와 Pypy3에서 recursion 시 할당되는 메모리가 다르구나..를 배웠다.
