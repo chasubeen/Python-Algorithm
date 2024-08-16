@@ -28,3 +28,5 @@
 
  <p>1로 시작하는 입력에 대해서 $a$와 $b$가 같은 집합에 포함되어 있으면 "<code>YES</code>" 또는 "<code>yes</code>"를, 그렇지 않다면 "<code>NO</code>" 또는 "<code>no</code>"를 한 줄에 하나씩 출력한다.</p>
 
+### **🚀 Trouble Shooting**
+- 상황에 따라 `input().split()`이 안먹힐 수도 있다니,, 말도 안되군요
