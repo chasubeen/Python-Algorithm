@@ -26,3 +26,6 @@
 
  <p>첫째 줄부터 V개의 줄에 걸쳐, i번째 줄에 i번 정점으로의 최단 경로의 경로값을 출력한다. 시작점 자신은 0으로 출력하고, 경로가 존재하지 않는 경우에는 INF를 출력하면 된다.</p>
 
+### **🚀 풀이**
+<img src = "https://github.com/user-attachments/assets/a17f2fbf-6a92-4db1-9ef9-98e21e91b0b3" height = 350 width = 700>
+
